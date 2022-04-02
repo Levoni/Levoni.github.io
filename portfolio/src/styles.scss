@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(53, 54, 58);
+}
+
+.linkDiv {
+    padding: 4px;
+}
+
+.linkDiv:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+.cover {
+    transform: translateY(-100%);
+    transition-duration: .25s;
+  }
+
+.uncover {
+    transform: translateY(0%);
+    transition-duration: .25s;
+}
+
+.appear {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.noAppear {
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+
+
+// .pc1 {
+//     transform: scaleY(0);
+//     transition: transform 400ms ease 0ms;
+// }
+
+// .pc1.is-show {
+//     transform: scaleY(1);
+//     transition: transform 400ms ease 0ms;
+// }

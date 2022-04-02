@@ -1,0 +1,7 @@
+<div class="centerHeader">About Me</div>
+<div [ngClass]="{appear: divclass, noAppear: !divclass}" appAppear [singleAppear]='false' (appear)="test($event)" class="aboutSection">
+    <div style="display: flex; justify-content: space-around;">
+        <img style="height: 200px;" src="../assets/Self.jpg"/>
+        <div>I am me</div>
+    </div>
+</div>
