@@ -1,7 +1,28 @@
-<div class="centerHeader">About Me</div>
-<div [ngClass]="{appear: divclass, noAppear: !divclass}" appAppear [singleAppear]='false' (appear)="test($event)" class="aboutSection">
-    <div style="display: flex; justify-content: space-around;">
-        <img style="height: 200px;" src="../assets/Self.jpg"/>
-        <div>I am me</div>
+<div style="padding: 20px; box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+} ;">
+    <div class="centerHeader">About Me</div>
+    <div [ngClass]="{appear: divclass, noAppear: !divclass}" appAppear [singleAppear]='false' (appear)="test($event)" class="aboutSection">
+        <div style="display: flex; justify-content: flex-start; padding-bottom: 50px;">
+            <img style="height: 200px; object-fit: contain;" src="../assets/Self.jpg"/>
+            <div style="padding-left: 50px">
+                <div>Basic Info</div>
+                <br>
+                <div>Location: Wisconsin</div>
+                <br>
+                <div>Age: 24</div>
+                <br>
+                <div>Best languages: C# and TypeScript/JavaScript</div>
+                <br>
+                <div>Best Tech Stacks: .Net and Angular</div>
+            </div>
+        </div>
+        <div style="flex: 1">
+            <div>Hello! I am a full stack developer based in Wisconsin.</div>
+            <br>
+            <div>From a young age I've had an enquisitive mind and enjoyed problem solving. This has extended to multiple area's of my life but none more so than technology and the createion of software. This has led to me learning different technologies and working on several projects on my own time.</div> 
+            <br>
+            <div>While studying at the university of wisconsin - Platteville I aquired valuable skills and techniques. After graduation I started working at Experity on their medical practice management softare. I have continued to learn and improve my abilities and will continue to do so in the future.</div>
+            <br>
+        </div>
     </div>
 </div>
