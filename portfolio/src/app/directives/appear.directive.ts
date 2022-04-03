@@ -57,7 +57,7 @@ checkVisibility() {
     }
 }
 isVisible() {
-    return this.scrollPos + this.windowHeight >= this.elementPos + (this.elementHeight / 2);
+    return this.scrollPos + this.windowHeight >= this.elementPos;
 }
 
 subscribe() {

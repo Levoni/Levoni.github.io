@@ -11,5 +11,9 @@ export class SplashComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  divclass: boolean = false;
+  
+  test(e: any) {
+    this.divclass = e;
+  }
 }
