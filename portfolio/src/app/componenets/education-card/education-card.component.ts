@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-education-card',
@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class EducationCardComponent implements OnInit {
 
   constructor() { }
+
+  @Input() Title: string = "";
+  @Input() ImgSrc: string = "";
+  @Input() description: string = "";
 
   ngOnInit(): void {
   }
