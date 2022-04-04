@@ -20,19 +20,28 @@ body {
   }
 
 .uncover {
-    transform: translateY(0%);
+    transform: translateY(0);
     transition-duration: .25s;
+}
+
+.slide-up {
+    transform: translateY(-50px);
+    transition-duration: .1s;
+}
+
+.return {
+    transform: translateY(0%);
+    transition-duration: 1s;
 }
 
 .appear {
     opacity: 1;
-    transition: opacity 1s;
+    transition-duration: 1s;
 }
 
 .noAppear {
     opacity: 0;
-    transition: opacity 1s;
-    
+    transition-duration: 1s;
 }
 
 
