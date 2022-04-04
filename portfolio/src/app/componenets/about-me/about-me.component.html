@@ -1,16 +1,16 @@
 <div style="padding: 20px; box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);" [ngClass]="{appear: divclass, noAppear: !divclass}" appAppear [singleAppear]='false' (appear)="test($event)">
     <div class="centerHeader">About Me</div>
     <div  class="aboutSection">
-        <div style="display: flex; justify-content: flex-start; padding-bottom: 50px;">
-            <img style="height: 200px; object-fit: contain;" src="../assets/Self.jpg"/>
-            <div style="padding-left: 50px">
-                <div>Basic Info</div>
+        <div style="display: flex; justify-content: flex-start; flex-wrap: wrap;">
+            <img class="imgFill" src="../../../assets/Self.jpg"/>
+            <div style="padding-bottom: 50px;">
+                <div style="font-size: 24px">Basic Info</div>
                 <br>
                 <div>Location: Wisconsin</div>
                 <br>
                 <div>Age: 24</div>
                 <br>
-                <div>Best languages: C# and TypeScript/JavaScript</div>
+                <div>Best languages: C#, TypeScript/JavaScript, and SQL</div>
                 <br>
                 <div>Best Tech Stacks: .Net and Angular</div>
             </div>

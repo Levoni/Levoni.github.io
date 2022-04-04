@@ -15,3 +15,19 @@
     justify-content: space-between;
 }
 
+.imgFill {
+    height: 200px; 
+    object-fit: contain; 
+    padding-right: 50px; 
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 740px) {
+    .imgFill {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
