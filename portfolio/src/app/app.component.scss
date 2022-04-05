@@ -19,11 +19,19 @@
     padding: 0px 50px 0px 0px;
 }
 
+.skills-section {
+    width: 50%;
+}
+
 @media screen and (max-width: 480px)  {
     .education-section {
         padding: 0px 0px 50px 0px;
+        width: 100%;
     }
     .education-skill-section {
         justify-content: flex-start;
+    }
+    .skills-section {
+        width: 100%;
     }
 }
