@@ -1,7 +1,25 @@
 <div>
     <div style="display: flex; align-items: center;">
-        <img style="height: 25px; object-fit: cover;" [src]='ImgSrc'>
-        <div style="padding-left: 10px;" class="title">{{Title}}</div>
+        <img style="height: 25px; object-fit: cover;" [src]='cardInfo.ImgSrc'>
+        <div style="padding-left: 10px;" class="title">{{cardInfo.Title}}</div>
     </div>
-    <div>{{description}}</div>
+    <div>{{cardInfo.description}}</div>
+    <div (click)='toggleExpand()' style="display: flex; align-items:center;">
+        <div>{{cardInfo.yearSpan}}</div>
+        <i [ngClass]="{up: isOpen, down: !isOpen}" class="arrow"></i>
+    </div>
+    <div [ngClass]="{fullHeight: isOpen, noHeight: !isOpen}">
+        <div>
+            Languages:
+            <ul>
+                <li *ngFor="let item of cardInfo.languages">{{item}}</li>
+            </ul>
+        </div>
+        <div>
+            Technologies:
+            <ul>
+                <li *ngFor="let item of cardInfo.technologies">{{item}}</li>
+            </ul>
+        </div>
+    </div>
 </div>

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { educationCardModel } from 'src/app/models/educationCardModel';
 
 @Component({
   selector: 'app-education-card',
@@ -9,11 +10,13 @@ export class EducationCardComponent implements OnInit {
 
   constructor() { }
 
-  @Input() Title: string = "";
-  @Input() ImgSrc: string = "";
-  @Input() description: string = "";
-
+  @Input() cardInfo: educationCardModel|any= null
+  isOpen: boolean = false;
+  
   ngOnInit(): void {
   }
 
+  toggleExpand() {
+    this.isOpen = !this.isOpen;
+  }
 }
