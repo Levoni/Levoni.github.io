@@ -9,8 +9,21 @@
     padding: 0 10% 0 10%;
 }
 
-// @media screen and (max-width: 480px)  {
-//     .body {
-//         padding: 0 50px 0 50px;
-//     }
-// }
+.education-skill-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.education-section {
+    padding: 0px 50px 0px 0px;
+}
+
+@media screen and (max-width: 480px)  {
+    .education-section {
+        padding: 0px 0px 50px 0px;
+    }
+    .education-skill-section {
+        justify-content: flex-start;
+    }
+}
