@@ -1,1 +1,15 @@
-<p>project-card works!</p>
+<div>
+    <div>
+        <img [src]='projectInfo.imgSrc'>
+    </div>
+    <div>
+        {{projectInfo.title}}
+    </div>
+    <div>
+        {{projectInfo.description}}
+    </div>
+    <div>
+        <img [src]="projectInfo.linkImgSrc">
+        <link [href]='projectInfo.link'>
+    </div>
+</div>

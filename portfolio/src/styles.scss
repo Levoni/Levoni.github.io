@@ -27,6 +27,7 @@ body {
 .scale-from-left {
     transform: scaleX(0);
     transition-delay: 1s;
+    transform-origin: left;
 }
 
 .slide-up {
@@ -44,8 +45,9 @@ body {
     transition-duration: 1s;
 }
 
-.full-scale {
+.full-scale-from-left {
     transform: scaleX(1);
+    transform-origin: left;
     transition-delay: 1s;
 }
 

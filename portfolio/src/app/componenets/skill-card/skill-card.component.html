@@ -1,6 +1,6 @@
 <div>
     {{skillInfo.language}}:  {{formatedWidth}}
     <div class="progress-bar-wrapper">
-        <div [ngStyle]="{width: formatedWidth}" [ngClass]="{'appear full-scale': divAppear, 'noAppear scale-from-left': !divAppear}" appAppear [singleAppear]='false' (appear)="appear($event)" class="progress-bar"></div>
+        <div [ngStyle]="{width: formatedWidth}" [ngClass]="{'appear full-scale-from-left': divAppear, 'noAppear scale-from-left': !divAppear}" appAppear [singleAppear]='false' (appear)="appear($event)" class="progress-bar"></div>
     </div>
 </div>
