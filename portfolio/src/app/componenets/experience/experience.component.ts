@@ -26,9 +26,15 @@ export class ExperienceComponent implements OnInit {
     technologies: ['dotnet core','ASP.NET','Angular','sql server']
   }
   
+  divAppear: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  appear(event: any) {
+    this.divAppear = event;
   }
 
 }

@@ -24,9 +24,29 @@ body {
     transition-duration: .25s;
 }
 
+.scale-from-left {
+    transform: scaleX(0);
+    transition-delay: 1s;
+}
+
 .slide-up {
-    transform: translateY(-50px);
-    transition-duration: .1s;
+    transform: translateY(-100px);
+    transition-duration: 1s;
+}
+
+.slide-right {
+    transform: translateX(100px);
+    transition-duration: 1s;
+}
+
+.slide-left {
+    transform: translateX(-100px);
+    transition-duration: 1s;
+}
+
+.full-scale {
+    transform: scaleX(1);
+    transition-delay: 1s;
 }
 
 .return {
@@ -43,14 +63,3 @@ body {
     opacity: 0;
     transition-duration: 1s;
 }
-
-
-// .pc1 {
-//     transform: scaleY(0);
-//     transition: transform 400ms ease 0ms;
-// }
-
-// .pc1.is-show {
-//     transform: scaleY(1);
-//     transition: transform 400ms ease 0ms;
-// }

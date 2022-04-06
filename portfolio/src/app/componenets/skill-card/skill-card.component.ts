@@ -9,14 +9,17 @@ import { skillCardModel } from 'src/app/models/skillCardModel';
 export class SkillCardComponent implements OnInit {
 
   @Input() skillInfo: skillCardModel|any = null;
+  divAppear: boolean = false
   formatedWidth: string = '0%'
 
   constructor() { }
 
   ngOnInit(): void {
     this.formatedWidth = this.skillInfo.percentage + '%';
-    console.log(this.skillInfo)
-    console.log(this.formatedWidth)
+  }
+
+  appear(event: any) {
+    this.divAppear = event;
   }
 
 }

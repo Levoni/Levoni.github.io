@@ -1,5 +1,9 @@
 <div>Skills</div>
-<app-skill-card [skillInfo]='cSharpInfo'></app-skill-card>
-<app-skill-card [skillInfo]='javaScriptInfo'></app-skill-card>
-<app-skill-card [skillInfo]='sqlInfo'></app-skill-card>
-<app-skill-card [skillInfo]='angularInfo'></app-skill-card>
+<div [ngClass]="{'appear return': divAppear, 'noAppear slide-right': !divAppear}" appAppear [singleAppear]='false' (appear)="appear($event)" style="display: flex;flex-direction: column;justify-content: space-around;height: 100%;">
+    <app-skill-card [skillInfo]='cSharpInfo'></app-skill-card>
+    <app-skill-card [skillInfo]='javaScriptInfo'></app-skill-card>
+    <app-skill-card [skillInfo]='sqlInfo'></app-skill-card>
+    <app-skill-card [skillInfo]='angularInfo'></app-skill-card>
+    <app-skill-card [skillInfo]='CPlusPlusinfo'></app-skill-card>
+    <app-skill-card [skillInfo]='JavaInfo'></app-skill-card>
+</div>

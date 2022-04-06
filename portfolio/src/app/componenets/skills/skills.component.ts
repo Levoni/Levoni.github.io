@@ -28,11 +28,25 @@ export class SkillsComponent implements OnInit {
     percentage: 70,
     ImgSrc: ''
   }
+  CPlusPlusinfo: skillCardModel = {
+    language:'C++',
+    percentage: 40,
+    ImgSrc: ''
+  }
+  JavaInfo: skillCardModel = {
+    language:'Java',
+    percentage: 30,
+    ImgSrc: ''
+  }
 
+  divAppear: boolean = true;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  appear(event: any) {
+    this.divAppear = event;
+  }
 }
