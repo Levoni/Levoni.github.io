@@ -13,7 +13,7 @@ export class ProjectsComponent implements OnInit {
       title: 'Batty',
       description: 'A brick breaking game styled after the clasic game breakout. ',
       reason: 'Class project created during my sophmore year of college.',
-      languages: ['C#', 'DotNet Framework'],
+      languages: ['C#', 'Win Forms'],
       imgSrc: '../../../assets/Batty_Custom_level.PNG',
       LinkInfo: [
         {
@@ -65,6 +65,40 @@ export class ProjectsComponent implements OnInit {
       ],
       year:'2022',
       interestNumber: 7
+    },
+    {
+      title: 'Game Engine',
+      description: 'A c# based game engine which utilizes the MonoGame framework.',
+      reason: 'A game engine that utilizes ECS architecture and the Monogame framework. It also has systems already built for file IO, input management, basic collisoin detection/physics',
+      languages: ['C#', 'MonoGame'],
+      imgSrc: '../../../assets/c_sharp_logo.png',
+      LinkInfo: [
+        {
+          linkImgSrc: '../../../assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/GameEngine',
+        }
+      ],
+      year:'2019',
+      interestNumber: 8
+    },
+    {
+      title: 'AI Maze Solver',
+      description: 'A visual representation of different search algorithems. Complete with a maze generator/editor, realtime visualization, and search metrics',
+      reason: 'Project done for my AI class senior year of college.',
+      languages: ['C#', 'WinForms'],
+      imgSrc: '../../../assets/Maze_Solver.png',
+      LinkInfo: [
+        {
+          linkImgSrc: '../../../assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/Search-algorithm-Maze-solver',
+        },
+        {
+          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkUrl: 'https://levoni.itch.io/search-algorithm-visualizer',
+        }
+      ],
+      year:'2019',
+      interestNumber: 8
     }
   ]
 
