@@ -1,5 +1,5 @@
-<div>Skills</div>
-<div [ngClass]="{'appear return': divAppear, 'noAppear slide-right': !divAppear}" appAppear [singleAppear]='false' (appear)="appear($event)" style="display: flex;flex-direction: column;justify-content: space-around;height: 100%;">
+<div style="font-size: 24px; font-weight: bold; padding-bottom: 20px;">Skills</div>
+<div [ngClass]="{'appear return': divAppear, 'noAppear slide-right': !divAppear}" appAppear [singleAppear]='false' (appear)="appear($event)" style="display: flex;flex-direction: column;justify-content: space-around;height: 80%;">
     <app-skill-card [skillInfo]='cSharpInfo'></app-skill-card>
     <app-skill-card [skillInfo]='javaScriptInfo'></app-skill-card>
     <app-skill-card [skillInfo]='sqlInfo'></app-skill-card>
