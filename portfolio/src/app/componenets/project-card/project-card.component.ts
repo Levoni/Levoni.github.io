@@ -10,9 +10,15 @@ export class ProjectCardComponent implements OnInit {
 
   @Input() projectInfo: projectCardModel|any = null;
 
+  isOpen: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleOpen() {
+    this.isOpen = !this.isOpen;
   }
 
 }

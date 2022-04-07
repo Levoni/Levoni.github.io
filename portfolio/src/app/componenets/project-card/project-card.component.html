@@ -1,15 +1,36 @@
-<div>
-    <div>
-        <img [src]='projectInfo.imgSrc'>
+<div class="project-card-wrapper">
+    <div class="preview-wrapper">
+        <img class="preview-image" [src]='projectInfo.imgSrc'>
     </div>
-    <div>
-        {{projectInfo.title}}
+    <div (click)="toggleOpen()" style="font-weight: bold;font-size:16px; padding-bottom: 5px; display: flex;justify-content: space-between;">
+        <div>
+            {{projectInfo.title}}
+        </div>
+        <div>
+            <i [ngClass]="{up: isOpen, down: !isOpen}" class="arrow"></i>
+        </div>
     </div>
-    <div>
-        {{projectInfo.description}}
+    <div style="display: flex; padding-bottom: 5px;">
+        <div *ngFor="let item of projectInfo.languages">
+            {{item}}&nbsp;
+        </div>
     </div>
-    <div>
-        <img [src]="projectInfo.linkImgSrc">
-        <link [href]='projectInfo.link'>
+    <div [ngClass]="{fullHeight: isOpen, noHeight: !isOpen}">
+        <div>
+            {{projectInfo.description}}
+        </div>
+        <div>
+            {{projectInfo.reason}}
+        </div>
+        <div>
+            {{projectInfo.year}}
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div *ngFor="let item of projectInfo.LinkInfo" style="padding-top: 5px; padding-right: 5px;">
+            <a [href]='item.linkUrl'>
+                <img class="link-image" [src]="item.linkImgSrc">
+            </a>
+        </div>
     </div>
 </div>

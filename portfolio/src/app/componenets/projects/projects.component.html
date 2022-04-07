@@ -1,1 +1,5 @@
-<p>projects works!</p>
+<div class="project-card-wrapper">
+    <div style="padding-bottom: 25px;" *ngFor="let item of projectCardInfos">
+        <app-project-card [projectInfo]='item'></app-project-card>
+    </div>
+</div>
