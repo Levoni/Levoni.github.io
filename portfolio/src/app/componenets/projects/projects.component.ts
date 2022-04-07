@@ -14,11 +14,15 @@ export class ProjectsComponent implements OnInit {
       description: 'A brick breaking game styled after the clasic game breakout. ',
       reason: 'Class project created during my sophmore year of college.',
       languages: ['C#', 'DotNet Framework'],
-      imgSrc: '../../../assets/dungeaon.png',
+      imgSrc: '../../../assets/Batty_Custom_level.PNG',
       LinkInfo: [
         {
           linkImgSrc: '../../../assets/github_logo.png',
-          linkUrl: 'https://github.com',
+          linkUrl: 'https://github.com/Levoni/Batty',
+        },
+        {
+          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkUrl: 'https://levoni.itch.io/batty',
         }
       ],
       year:'2017',
