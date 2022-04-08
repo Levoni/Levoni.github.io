@@ -44,7 +44,7 @@ export class ProjectsComponent implements OnInit {
           linkUrl: 'https://levoni.itch.io/vast-adventure',
         }
       ],
-      year:'2022',
+      year:'2021',
       interestNumber: 7
     },
     {
@@ -78,7 +78,7 @@ export class ProjectsComponent implements OnInit {
           linkUrl: 'https://github.com/Levoni/GameEngine',
         }
       ],
-      year:'2019',
+      year:'2020',
       interestNumber: 8
     },
     {
@@ -98,6 +98,25 @@ export class ProjectsComponent implements OnInit {
         }
       ],
       year:'2019',
+      interestNumber: 8
+    },
+    {
+      title: 'Dungeon Maze',
+      description: 'A game where you fight through a maze to get the highest score',
+      reason: 'Project done for my Intermediate software development class softmore year.',
+      languages: ['C++', 'WinForms'],
+      imgSrc: '../../../assets/Maze_hard.PNG',
+      LinkInfo: [
+        {
+          linkImgSrc: '../../../assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/DungeonMaze',
+        },
+        {
+          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkUrl: 'https://levoni.itch.io/dungeon-maze',
+        }
+      ],
+      year:'2017',
       interestNumber: 8
     }
   ]
