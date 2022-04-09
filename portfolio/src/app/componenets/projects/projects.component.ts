@@ -156,6 +156,25 @@ export class ProjectsComponent implements OnInit {
       ],
       year:'2018',
       interestNumber: 5
+    },
+    {
+      title: 'nataC fo sreltteS',
+      description: 'A multiplayer board game that involves resource management and city expansion.  Based on the game Settlers of Catan.',
+      reason: 'A project I did during my Software maintenance class Sophmore year.',
+      languages: ['C#', 'WinForms'],
+      imgSrc: '../../../assets/natac_splash.PNG',
+      LinkInfo: [
+        {
+          linkImgSrc: '../../../assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/nataCfosreltteS',
+        },
+        {
+          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkUrl: 'https://levoni.itch.io/natac-fo-srelttes',
+        }
+      ],
+      year:'2017',
+      interestNumber: 5
     }
   ]
 
