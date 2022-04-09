@@ -32,7 +32,7 @@ export class ProjectsComponent implements OnInit {
       title: 'Vast Adventure',
       description: 'A text based adventure about excaping a dungeon. Made with my own game engine which utilizes the Monogame Framework.',
       reason: 'Personal project made for fun and to test out my game engine.',
-      languages: ['C#', 'Monogame'],
+      languages: ['C#', 'Monogame', 'Personal Game Engine'],
       imgSrc: '../../../assets/dungeaon.png',
       LinkInfo: [
         {
@@ -102,7 +102,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'Dungeon Maze',
-      description: 'A game where you fight through a maze to get the highest score',
+      description: 'A game where you fight through a maze to get the highest score.',
       reason: 'Project done for my Intermediate software development class softmore year.',
       languages: ['C++', 'WinForms'],
       imgSrc: '../../../assets/Maze_hard.PNG',
@@ -118,6 +118,44 @@ export class ProjectsComponent implements OnInit {
       ],
       year:'2017',
       interestNumber: 8
+    },
+    {
+      title: 'Portfolio Webpage',
+      description: 'A webpage to display some info about me and things I have done.',
+      reason: 'IA project I did for fun and so people can easily see what i have done.',
+      languages: ['Typescript', 'HTML', 'CSS', 'Angular'],
+      imgSrc: '../../../assets/webPage.png',
+      LinkInfo: [
+        {
+          linkImgSrc: '../../../assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/levoni.github.io',
+        },
+        {
+          linkImgSrc: '../../../assets/webpage_logo.png',
+          linkUrl: 'https://levoni.github.io/',
+        }
+      ],
+      year:'2022',
+      interestNumber: 9
+    },
+    {
+      title: 'Kingdom Conquest',
+      description: 'A turn based strategy game made using the Monogame framework. Contains single player or Multiplayer of LAN gameplay options.',
+      reason: 'A project I did during my Software Quality class Junior year.',
+      languages: ['C#', 'Monogame'],
+      imgSrc: '../../../assets/KingdomConquest_preview.png',
+      LinkInfo: [
+        {
+          linkImgSrc: '../../../assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/KingdomConquest',
+        },
+        {
+          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkUrl: 'https://levoni.itch.io/kingdom-conquest',
+        }
+      ],
+      year:'2018',
+      interestNumber: 5
     }
   ]
 
