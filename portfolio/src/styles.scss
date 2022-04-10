@@ -26,7 +26,8 @@ body {
 
 .scale-from-left {
     transform: scaleX(0);
-    transition-delay: 1s;
+    transition-delay: 0s;
+    transition-duration: 1s;
     transform-origin: left;
 }
 
@@ -48,7 +49,8 @@ body {
 .full-scale-from-left {
     transform: scaleX(1);
     transform-origin: left;
-    transition-delay: 1s;
+    transition-delay: .4s;
+    transition-duration: 1s;
 }
 
 .return {

@@ -11,6 +11,7 @@
     }
 }
 
+
 .preview-wrapper {
     height: 200px;
     overflow: hidden;
@@ -27,6 +28,12 @@
     width: 300px; 
     padding: 5px 5px 5px 5px; 
     box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+    transition-duration: .5s;
+}
+
+.project-card-wrapper:hover {
+  transition-duration: .5s;
+  transform: scale(1.1);
 }
 
 .arrow {

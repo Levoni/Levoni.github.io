@@ -175,12 +175,36 @@ export class ProjectsComponent implements OnInit {
       ],
       year:'2017',
       interestNumber: 5
+    },
+    {
+      title: 'Garage Sale POS',
+      description: 'imple tool to track sales and calculate totals.',
+      reason: 'A project made so my family could track sales at their garage sales with ease.',
+      languages: ['C#', 'WinForms'],
+      imgSrc: '../../../assets/POS_Register.png',
+      LinkInfo: [
+        {
+          linkImgSrc: '../../../assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/GarageSalePOS',
+        },
+        {
+          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkUrl: 'https://levoni.itch.io/garage-sale-pos',
+        }
+      ],
+      year:'2015',
+      interestNumber: 5
     }
   ]
+  
+  divAppear: boolean = true;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  appear(event: any) {
+    this.divAppear = event;
+  }
 }
