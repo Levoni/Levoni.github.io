@@ -1,4 +1,4 @@
-<div style="font-size: 24px;font-weight: bold;;">Education and Work Experience</div>
+<div id="educationWork" style="font-size: 24px;font-weight: bold;;">Education and Work Experience</div>
 <ul  [ngClass]="{'appear return': divAppear, 'noAppear slide-left': !divAppear}" appAppear [singleAppear]='false' (appear)="appear($event)">
     <li>
         <app-education-card [cardInfo]='schoolCardInfo'></app-education-card>

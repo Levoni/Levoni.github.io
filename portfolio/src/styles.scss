@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 50px;
+}
+:target {
+    scroll-margin-top: 5rem;
+  }
 body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -7,6 +14,7 @@ body {
 
 .linkDiv {
     padding: 4px;
+    font-size: 20px;
 }
 
 .linkDiv:hover {
@@ -22,6 +30,7 @@ body {
 .uncover {
     transform: translateY(0);
     transition-duration: .25s;
+    scroll-margin-top: 50px;
 }
 
 .scale-from-left {

@@ -12,4 +12,16 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToElement(element: string) {
+    
+    var domElement = document.getElementById(element);
+
+    if(domElement != null) {
+      var top = domElement.offsetTop - 60;
+      window.scroll({
+        top:top,
+        behavior:"smooth"
+      })
+    }
+  }
 }
