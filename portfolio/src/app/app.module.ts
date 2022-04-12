@@ -6,7 +6,6 @@ import { HeaderComponent } from './componenets/header/header.component';
 import { ElasticHideDirective } from './directives/elastic-hide.directive';
 import { AppearDirective } from './directives/appear.directive';
 import { AboutMeComponent } from './componenets/about-me/about-me.component';
-import { EducationComponent } from './componenets/education/education.component';
 import { ExperienceComponent } from './componenets/experience/experience.component';
 import { ProjectsComponent } from './componenets/projects/projects.component';
 import { QuickLinksComponent } from './componenets/quick-links/quick-links.component';
@@ -23,7 +22,6 @@ import { SkillCardComponent } from './componenets/skill-card/skill-card.componen
     ElasticHideDirective,
     AppearDirective,
     AboutMeComponent,
-    EducationComponent,
     ExperienceComponent,
     ProjectsComponent,
     QuickLinksComponent,
