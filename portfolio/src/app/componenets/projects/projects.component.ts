@@ -194,6 +194,25 @@ export class ProjectsComponent implements OnInit {
       ],
       year:'2015',
       interestNumber: 5
+    },
+    {
+      title: 'Block Battle',
+      description: 'Local multiplayer board game based of the popular board game Blokus.',
+      reason: 'A project I worked on during my Mobile Apps course senior year.',
+      languages: ['Typescript', 'React Native' ],
+      imgSrc: '../../../assets/block-battle-home-crop.png',
+      LinkInfo: [
+        {
+          linkImgSrc: '../../../assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/BlockBattle',
+        },
+        {
+          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkUrl: 'https://levoni.itch.io/block-battle',
+        }
+      ],
+      year:'2015',
+      interestNumber: 5
     }
   ]
   

@@ -13,7 +13,6 @@ export class HeaderComponent implements OnInit {
   }
 
   goToElement(element: string) {
-    
     var domElement = document.getElementById(element);
 
     if(domElement != null) {
@@ -23,5 +22,12 @@ export class HeaderComponent implements OnInit {
         behavior:"smooth"
       })
     }
+  }
+
+  goToTop () {
+    window.scroll({
+      top:0,
+      behavior:"smooth"
+    })
   }
 }
