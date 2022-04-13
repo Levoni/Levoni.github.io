@@ -1,0 +1,4 @@
+<div (click)="onToggle()"  class="toggle-container">
+    <div class="toggle-background"></div>
+    <div [ngClass]="{'toggle-top-off': isOn, 'toggle-top-on': !isOn}"></div>
+</div>

@@ -30,4 +30,13 @@ export class HeaderComponent implements OnInit {
       behavior:"smooth"
     })
   }
+
+  toggleDarkMode(event: any) {
+    if(event) {
+      document.getElementsByTagName('body')[0].classList.add('dark-theme');
+    } else {
+      document.getElementsByTagName('body')[0].classList.remove('dark-theme');
+    }
+
+  }
 }

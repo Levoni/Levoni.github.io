@@ -14,6 +14,7 @@ import { SplashComponent } from './componenets/splash/splash.component';
 import { ProjectCardComponent } from './componenets/project-card/project-card.component';
 import { EducationCardComponent } from './componenets/education-card/education-card.component';
 import { SkillCardComponent } from './componenets/skill-card/skill-card.component';
+import { ToggleComponent } from './componenets/toggle/toggle.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { SkillCardComponent } from './componenets/skill-card/skill-card.componen
     ProjectCardComponent,
     EducationCardComponent,
     SkillCardComponent,
+    ToggleComponent,
   ],
   imports: [
     BrowserModule
