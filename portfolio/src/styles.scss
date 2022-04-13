@@ -76,3 +76,32 @@ body {
     opacity: 0;
     transition-duration: 1s;
 }
+
+//dark theme stuff
+.dark-theme {
+
+    & .body {
+        background-color: rgb(53, 54, 58);
+        color: rgb(232, 234, 237);
+    }
+
+    & .body .project-card-wrapper {
+        box-shadow:  0px 5px 15px 0px rgb(0 0 0 / 80%);
+    }
+
+    & .body .about-me-wraper {
+        box-shadow:  0px 5px 15px 0px rgb(0 0 0 / 80%);
+    }
+
+    & .body li::before {
+        background-color: rgb(53, 54, 58);
+    }
+
+    & .body .arrow {
+        border: solid  rgb(232, 234, 237);
+        margin-left: 25px;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+      }
+}

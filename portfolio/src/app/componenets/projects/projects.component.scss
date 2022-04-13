@@ -1,4 +1,4 @@
-.project-card-wrapper {
+.project-card-section-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -6,6 +6,6 @@
 
 @media screen and (max-width: 480px) {
     .project-card-wrapper {
-        justify-content: space-around;
+        justify-content: center;
     }
 }

@@ -26,3 +26,27 @@
     opacity: .5;
     transition-duration: .2s;
 }
+
+@media screen and (max-width: 480px) {
+    .quick-link-wrapper {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        height: 50px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .quick-link-footer {
+        display: none;
+    }
+
+    .image-link-wrapper img {
+        height: 100%;
+        padding: 5px 10px 5px 10px;
+        width: auto;
+        object-fit: contain;
+        opacity: 1;
+    }
+}
