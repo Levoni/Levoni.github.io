@@ -1,5 +1,11 @@
 <div id="projects" style="font-size: 24px; font-weight: bold; padding-bottom: 20px">
-    Projects
+    Projects &nbsp;&nbsp;&nbsp; 
+    <select (change)="selectChange()" [(ngModel)]='selectedValue'>
+        <option>Year</option>
+        <option>Interseting</option>
+        <option>Alphibetical</option>
+        <option>Languages</option>
+    </select>
 </div>
 <div [ngClass]="{'appear return': divAppear, 'noAppear slide-right': !divAppear}" appAppear [singleAppear]='false' (appear)="appear($event)" class="project-card-section-wrapper">
     <div style="padding-bottom: 25px;" *ngFor="let item of projectCardInfos">

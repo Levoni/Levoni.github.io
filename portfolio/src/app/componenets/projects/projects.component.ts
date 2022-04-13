@@ -217,10 +217,49 @@ export class ProjectsComponent implements OnInit {
   ]
   
   divAppear: boolean = true;
+  selectedValue: any;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.selectedValue = "Year";
+    this.selectChange();
+  }
+
+  selectChange() {
+    if(this.selectedValue == "Year") {
+      this.projectCardInfos.sort((a,b) => {
+        if(a.year > b.year)
+          return 1;
+        else if (a.year < b.year)
+          return -1;
+        return 0
+      });
+    } else if (this.selectedValue == "Alphibetical") {
+      this.projectCardInfos.sort((a,b) => {
+        if(a.title > b.title)
+          return 1;
+        else if (a.title < b.title)
+          return -1;
+        return 0
+      });
+    } else if (this.selectedValue == "Interseting") {
+      this.projectCardInfos.sort((a,b) => {
+        if(a.interestNumber < b.interestNumber)
+          return 1;
+        else if (a.interestNumber > b.interestNumber)
+          return -1;
+        return 0
+      });
+    } else if (this.selectedValue == "Languages") {
+      this.projectCardInfos.sort((a,b) => {
+        if(a.languages > b.languages)
+          return 1;
+        else if (a.languages < b.languages)
+          return -1;
+        return 0
+      });
+    }
   }
 
   appear(event: any) {

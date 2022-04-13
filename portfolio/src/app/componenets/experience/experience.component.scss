@@ -9,13 +9,13 @@ li::before {
     position: absolute;
     width: 20px;
     height: 20px;
-    border: 2px solid orange;
+    border: 2px solid #008970;
     border-radius: 50%;
     transform: translateX(-65px);
     z-index: 400;
 }
 ul {
-    border-left: 3px solid orange;
+    border-left: 3px solid #008970;
     list-style: none;
     margin-left: 20px;
     padding-left: 0px;
