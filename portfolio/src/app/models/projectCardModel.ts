@@ -9,4 +9,5 @@ export class projectCardModel {
     LinkInfo: LinkInfoModel[]|any = null;
     interestNumber: number = 0;
     year: string = '';
+    wasGroup: boolean = false;
 }

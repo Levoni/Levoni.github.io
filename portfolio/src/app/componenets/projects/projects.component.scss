@@ -4,6 +4,11 @@
     justify-content: space-between;
 }
 
+select {
+    border-radius: 5px;
+    height: 30px;
+}
+
 @media screen and (max-width: 480px) {
     .project-card-section-wrapper {
         justify-content: center;

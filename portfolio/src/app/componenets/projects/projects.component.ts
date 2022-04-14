@@ -25,8 +25,9 @@ export class ProjectsComponent implements OnInit {
           linkUrl: 'https://levoni.itch.io/batty',
         }
       ],
-      year:'2017',
-      interestNumber: 5
+      year:'2018',
+      interestNumber: 5,
+      wasGroup: true
     },
     {
       title: 'Vast Adventure',
@@ -45,7 +46,8 @@ export class ProjectsComponent implements OnInit {
         }
       ],
       year:'2021',
-      interestNumber: 7
+      interestNumber: 7,
+      wasGroup: false
     },
     {
       title: 'Requiem: The Lost Voices',
@@ -64,7 +66,8 @@ export class ProjectsComponent implements OnInit {
         }
       ],
       year:'2022',
-      interestNumber: 7
+      interestNumber: 7,
+      wasGroup: true
     },
     {
       title: 'Game Engine',
@@ -79,7 +82,8 @@ export class ProjectsComponent implements OnInit {
         }
       ],
       year:'2020',
-      interestNumber: 8
+      interestNumber: 8,
+      wasGroup: false
     },
     {
       title: 'AI Maze Solver',
@@ -98,7 +102,8 @@ export class ProjectsComponent implements OnInit {
         }
       ],
       year:'2019',
-      interestNumber: 8
+      interestNumber: 8,
+      wasGroup: true
     },
     {
       title: 'Dungeon Maze',
@@ -117,7 +122,8 @@ export class ProjectsComponent implements OnInit {
         }
       ],
       year:'2017',
-      interestNumber: 8
+      interestNumber: 8,
+      wasGroup: true
     },
     {
       title: 'Portfolio Webpage',
@@ -136,7 +142,8 @@ export class ProjectsComponent implements OnInit {
         }
       ],
       year:'2022',
-      interestNumber: 9
+      interestNumber: 9,
+      wasGroup:false
     },
     {
       title: 'Kingdom Conquest',
@@ -154,8 +161,9 @@ export class ProjectsComponent implements OnInit {
           linkUrl: 'https://levoni.itch.io/kingdom-conquest',
         }
       ],
-      year:'2018',
-      interestNumber: 5
+      year:'2017',
+      interestNumber: 5,
+      wasGroup: true
     },
     {
       title: 'nataC fo sreltteS',
@@ -173,8 +181,9 @@ export class ProjectsComponent implements OnInit {
           linkUrl: 'https://levoni.itch.io/natac-fo-srelttes',
         }
       ],
-      year:'2017',
-      interestNumber: 5
+      year:'2016',
+      interestNumber: 5,
+      wasGroup: true
     },
     {
       title: 'Garage Sale POS',
@@ -193,7 +202,8 @@ export class ProjectsComponent implements OnInit {
         }
       ],
       year:'2015',
-      interestNumber: 5
+      interestNumber: 5,
+      wasGroup: false
     },
     {
       title: 'Block Battle',
@@ -211,8 +221,9 @@ export class ProjectsComponent implements OnInit {
           linkUrl: 'https://levoni.itch.io/block-battle',
         }
       ],
-      year:'2019',
-      interestNumber: 5
+      year:'2018',
+      interestNumber: 5,
+      wasGroup: true
     }
   ]
   
