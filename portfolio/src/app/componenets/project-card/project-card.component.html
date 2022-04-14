@@ -17,13 +17,18 @@
     </div>
     <div [ngClass]="{fullHeight: isOpen, noHeight: !isOpen}">
         <div>
-            {{projectInfo.description}}
+            Description: {{projectInfo.description}}
+        </div>
+        <div class="breaking-div"></div>
+        <div>
+            Reason I created it: {{projectInfo.reason}}
+        </div>
+        <div class="breaking-div"></div>
+        <div>
+            Inerest: {{projectInfo.interestNumber}}
         </div>
         <div>
-            {{projectInfo.reason}}
-        </div>
-        <div>
-            {{projectInfo.year}}
+            {{projectInfo.year}} {{getGroupText()}}
         </div>
     </div>
     <div style="display: flex;">

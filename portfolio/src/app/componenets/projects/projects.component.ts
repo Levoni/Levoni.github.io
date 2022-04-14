@@ -71,8 +71,8 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'Game Engine',
-      description: 'A c# based game engine which utilizes the MonoGame framework.',
-      reason: 'A game engine that utilizes ECS architecture and the Monogame framework. It also has systems already built for file IO, input management, basic collisoin detection/physics',
+      description: 'A c# based game engine which utilizes the MonoGame framework. It is architected with ECS architecture. It also has systems already built for file IO, input management, basic collisoin detection/physics',
+      reason: 'A project I made because I wanted to try a different architecture pattern and made some games with it.',
       languages: ['C#', 'MonoGame'],
       imgSrc: '../../../assets/c_sharp_logo.png',
       LinkInfo: [
@@ -128,7 +128,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Portfolio Webpage',
       description: 'A webpage to display some info about me and things I have done.',
-      reason: 'IA project I did for fun and so people can easily see what i have done.',
+      reason: 'A project I made to work on web development and be able to show people what I have done.',
       languages: ['Typescript', 'HTML', 'CSS', 'Angular'],
       imgSrc: '../../../assets/webPage.png',
       LinkInfo: [

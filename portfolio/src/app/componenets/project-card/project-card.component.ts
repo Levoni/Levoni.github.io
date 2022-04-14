@@ -20,5 +20,7 @@ export class ProjectCardComponent implements OnInit {
   toggleOpen() {
     this.isOpen = !this.isOpen;
   }
-
+  getGroupText() {
+    return this.projectInfo.wasGroup ? "Group Development" : "Solo Development"
+  }
 }
