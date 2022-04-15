@@ -16,6 +16,7 @@ import { ProjectCardComponent } from './componenets/project-card/project-card.co
 import { EducationCardComponent } from './componenets/education-card/education-card.component';
 import { SkillCardComponent } from './componenets/skill-card/skill-card.component';
 import { ToggleComponent } from './componenets/toggle/toggle.component';
+import { ImgDialogComponent } from './componenets/img-dialog/img-dialog.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ToggleComponent } from './componenets/toggle/toggle.component';
     EducationCardComponent,
     SkillCardComponent,
     ToggleComponent,
+    ImgDialogComponent,
   ],
   imports: [
     BrowserModule,

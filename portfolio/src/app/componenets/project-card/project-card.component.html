@@ -1,6 +1,6 @@
 <div class="project-card-wrapper">
     <div class="preview-wrapper">
-        <img class="preview-image" [src]='projectInfo.imgSrc'>
+        <img (click)="openImage($event)" class="preview-image" [src]='projectInfo.imgSrc'>
     </div>
     <div (click)="toggleOpen()" style="font-weight: bold;font-size:16px; padding-bottom: 5px; display: flex;justify-content: space-between;">
         <div>

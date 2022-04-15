@@ -7,4 +7,8 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  ngOnInit(): void {
+  
+  }
 }

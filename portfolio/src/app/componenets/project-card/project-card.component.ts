@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { projectCardModel } from 'src/app/models/projectCardModel';
+import { ImgDialogServiceService } from 'src/app/services/img-dialog-service.service';
 
 @Component({
   selector: 'app-project-card',
@@ -12,7 +13,7 @@ export class ProjectCardComponent implements OnInit {
 
   isOpen: boolean = false;
 
-  constructor() { }
+  constructor(private imgDialogService: ImgDialogServiceService) { }
 
   ngOnInit(): void {
   }
@@ -22,5 +23,8 @@ export class ProjectCardComponent implements OnInit {
   }
   getGroupText() {
     return this.projectInfo.wasGroup ? "Group Development" : "Solo Development"
+  }
+  openImage(event: any) {
+    this.imgDialogService.setImageSrc(event.srcElement.src);
   }
 }
