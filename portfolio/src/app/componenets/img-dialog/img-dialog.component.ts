@@ -17,9 +17,6 @@ export class ImgDialogComponent implements OnInit {
     document.getElementById("imgDialog")?.setAttribute("style","display:none")
 
     document.onclick = (args: any) : void => {
-      console.log("click")
-      console.log(this.isVisible)
-      console.log(args.target.id)
       if(this.isVisible && args.target.id !== 'imgDialog') {
         this.isVisible = false;
         document.getElementById("imgDialog")?.setAttribute("style","display:none")
@@ -32,9 +29,6 @@ export class ImgDialogComponent implements OnInit {
       document.getElementById("imgDialog")?.setAttribute("style","display:initial")
       this.img.nativeElement.src = value;
       this.img.nativeElement.onload = () => {
-        
-        // alert(this.img.nativeElement.width + 'x' + this.img.nativeElement.height)
-        console.log('hit')
         this.isVisible = true;
       }
     })

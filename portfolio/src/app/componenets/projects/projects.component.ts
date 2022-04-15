@@ -11,8 +11,8 @@ export class ProjectsComponent implements OnInit {
   projectCardInfos: projectCardModel[] = [
     {
       title: 'Batty',
-      description: 'A brick breaking game styled after the clasic game breakout. ',
-      reason: 'Class project created during my sophmore year of college.',
+      description: 'A brick breaking game styled after the classic game breakout. ',
+      reason: 'Class project created during my sophomore year of college.',
       languages: ['C#', 'Win Forms'],
       imgSrc: '../../../assets/Batty_Custom_level.PNG',
       LinkInfo: [
@@ -31,7 +31,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'Vast Adventure',
-      description: 'A text based adventure about excaping a dungeon. Made with my own game engine which utilizes the Monogame Framework.',
+      description: 'A text based adventure about escaping a dungeon. Made with my own game engine which utilizes the Monogame Framework.',
       reason: 'Personal project made for fun and to test out my game engine.',
       languages: ['C#', 'Monogame', 'Personal Game Engine'],
       imgSrc: '../../../assets/dungeaon.png',
@@ -51,7 +51,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'Requiem: The Lost Voices',
-      description: 'A survival horror game where you overcome challanges and discover about the lost voices.',
+      description: 'A survival horror game where you overcome challenges and discover about the lost voices.',
       reason: 'Made for a game jam along with several other developers.',
       languages: ['C#', 'Unity'],
       imgSrc: '../../../assets/requiem.png',
@@ -71,9 +71,9 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'Game Engine',
-      description: 'A c# based game engine which utilizes the MonoGame framework. It is architected with ECS architecture. It also has systems already built for file IO, input management, basic collisoin detection/physics',
+      description: 'A c# based game engine which utilizes the Monogame framework. It is architected with ECS architecture. It also has systems already built for file IO, input management, basic collisoin detection/physics',
       reason: 'A project I made because I wanted to try a different architecture pattern and made some games with it.',
-      languages: ['C#', 'MonoGame'],
+      languages: ['C#', 'Monogame'],
       imgSrc: '../../../assets/c_sharp_logo.png',
       LinkInfo: [
         {
@@ -87,7 +87,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'AI Maze Solver',
-      description: 'A visual representation of different search algorithems. Complete with a maze generator/editor, realtime visualization, and search metrics',
+      description: 'A visual representation of different search algorithms. Complete with a maze generator/editor, real time visualization, and search metrics',
       reason: 'Project done for my AI class senior year of college.',
       languages: ['C#', 'WinForms'],
       imgSrc: '../../../assets/Maze_Solver.png',
@@ -108,7 +108,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Dungeon Maze',
       description: 'A game where you fight through a maze to get the highest score.',
-      reason: 'Project done for my Intermediate software development class softmore year.',
+      reason: 'Project done for my Intermediate software development class sophomore year.',
       languages: ['C++', 'WinForms'],
       imgSrc: '../../../assets/Maze_hard.PNG',
       LinkInfo: [
@@ -147,7 +147,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'Kingdom Conquest',
-      description: 'A turn based strategy game made using the Monogame framework. Contains single player or Multiplayer of LAN gameplay options.',
+      description: 'A turn based strategy game made using the Monogame framework. Contains single player or Multiplayer over LAN gameplay options.',
       reason: 'A project I did during my Software Quality class Junior year.',
       languages: ['C#', 'Monogame'],
       imgSrc: '../../../assets/KingdomConquest_preview.png',
@@ -168,7 +168,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'nataC fo sreltteS',
       description: 'A multiplayer board game that involves resource management and city expansion.  Based on the game Settlers of Catan.',
-      reason: 'A project I did during my Software maintenance class Sophmore year.',
+      reason: 'A project I did during my Software maintenance class sophomore year.',
       languages: ['C#', 'WinForms'],
       imgSrc: '../../../assets/natac_splash.PNG',
       LinkInfo: [
@@ -187,7 +187,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'Garage Sale POS',
-      description: 'imple tool to track sales and calculate totals.',
+      description: 'Simple tool to track sales and calculate totals.',
       reason: 'A project made so my family could track sales at their garage sales with ease.',
       languages: ['C#', 'WinForms'],
       imgSrc: '../../../assets/POS_Register.png',
@@ -207,7 +207,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       title: 'Block Battle',
-      description: 'Local multiplayer board game based of the popular board game Blokus.',
+      description: 'Local multiplayer board game based on the popular board game Blokus.',
       reason: 'A project I worked on during my Mobile Apps course senior year.',
       languages: ['Typescript', 'React Native' ],
       imgSrc: '../../../assets/block-battle-home-crop.png',
