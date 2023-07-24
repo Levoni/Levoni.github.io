@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
-
+  age: number =  Math.floor((new Date().getTime() -  new Date('06/25/1997').getTime()) / 1000 / 60 /60 / 24 / 365)
   constructor() { }
 
   ngOnInit(): void {

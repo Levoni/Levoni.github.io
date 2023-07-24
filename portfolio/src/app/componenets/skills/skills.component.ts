@@ -24,20 +24,41 @@ export class SkillsComponent implements OnInit {
     ImgSrc: ''
   }
   angularInfo: skillCardModel = {
-    language:'Angular2',
+    language:'Angular',
     percentage: 70,
     ImgSrc: ''
   }
+  reactInfo: skillCardModel = {
+    language:'React/NextJS',
+    percentage: 70,
+    ImgSrc:''
+  }
+  awsInfo: skillCardModel = {
+    language:'AWS',
+    percentage: 40,
+    ImgSrc:''
+  }
   CPlusPlusinfo: skillCardModel = {
     language:'C++',
-    percentage: 40,
+    percentage: 30,
+    ImgSrc: ''
+  }
+  kotlinInfo: skillCardModel = {
+    language:'Kotlin',
+    percentage: 30,
     ImgSrc: ''
   }
   JavaInfo: skillCardModel = {
     language:'Java',
-    percentage: 30,
+    percentage: 20,
     ImgSrc: ''
   }
+  androidInfo: skillCardModel = {
+    language:'Android',
+    percentage: 20,
+    ImgSrc: ''
+  }
+
 
   divAppear: boolean = true;
 

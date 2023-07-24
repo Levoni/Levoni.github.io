@@ -14,14 +14,14 @@ export class ProjectsComponent implements OnInit {
       description: 'A brick breaking game styled after the classic game breakout. ',
       reason: 'Class project created during my sophomore year of college.',
       languages: ['C#', 'Win Forms'],
-      imgSrc: '../../../assets/Batty_Custom_level.PNG',
+      imgSrc: './assets/Batty_Custom_level.PNG',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/Batty',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://levoni.itch.io/batty',
         }
       ],
@@ -34,14 +34,14 @@ export class ProjectsComponent implements OnInit {
       description: 'A text based adventure about escaping a dungeon. Made with my own game engine which utilizes the Monogame Framework.',
       reason: 'Personal project made for fun and to test out my game engine.',
       languages: ['C#', 'Monogame', 'Personal Game Engine'],
-      imgSrc: '../../../assets/dungeaon.png',
+      imgSrc: './assets/dungeaon.png',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/VastAdventure',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://levoni.itch.io/vast-adventure',
         }
       ],
@@ -54,14 +54,14 @@ export class ProjectsComponent implements OnInit {
       description: 'A survival horror game where you overcome challenges and discover about the lost voices.',
       reason: 'Made for a game jam along with several other developers.',
       languages: ['C#', 'Unity'],
-      imgSrc: '../../../assets/requiem.png',
+      imgSrc: './assets/requiem.png',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Zaidis/Project-Starburst',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://zaidisx.itch.io/requiem',
         }
       ],
@@ -74,10 +74,10 @@ export class ProjectsComponent implements OnInit {
       description: 'A c# based game engine which utilizes the Monogame framework. It is architected with ECS architecture. It also has systems already built for file IO, input management, basic collisoin detection/physics',
       reason: 'A project I made because I wanted to try a different architecture pattern and made some games with it.',
       languages: ['C#', 'Monogame'],
-      imgSrc: '../../../assets/c_sharp_logo.png',
+      imgSrc: './assets/c_sharp_logo.png',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/GameEngine',
         }
       ],
@@ -90,14 +90,14 @@ export class ProjectsComponent implements OnInit {
       description: 'A visual representation of different search algorithms. Complete with a maze generator/editor, real time visualization, and search metrics',
       reason: 'Project done for my AI class senior year of college.',
       languages: ['C#', 'WinForms'],
-      imgSrc: '../../../assets/Maze_Solver.png',
+      imgSrc: './assets/Maze_Solver.png',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/Search-algorithm-Maze-solver',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://levoni.itch.io/search-algorithm-visualizer',
         }
       ],
@@ -110,14 +110,14 @@ export class ProjectsComponent implements OnInit {
       description: 'A game where you fight through a maze to get the highest score.',
       reason: 'Project done for my Intermediate software development class sophomore year.',
       languages: ['C++', 'WinForms'],
-      imgSrc: '../../../assets/Maze_hard.PNG',
+      imgSrc: './assets/Maze_hard.PNG',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/DungeonMaze',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://levoni.itch.io/dungeon-maze',
         }
       ],
@@ -130,14 +130,14 @@ export class ProjectsComponent implements OnInit {
       description: 'A webpage to display some info about me and things I have done.',
       reason: 'A project I made to work on web development and be able to show people what I have done.',
       languages: ['Typescript', 'HTML', 'CSS', 'Angular'],
-      imgSrc: '../../../assets/webPage.png',
+      imgSrc: './assets/webPage.png',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/levoni.github.io',
         },
         {
-          linkImgSrc: '../../../assets/webpage_logo.png',
+          linkImgSrc: './assets/webpage_logo.png',
           linkUrl: 'https://levoni.github.io/',
         }
       ],
@@ -150,14 +150,14 @@ export class ProjectsComponent implements OnInit {
       description: 'A turn based strategy game made using the Monogame framework. Contains single player or Multiplayer over LAN gameplay options.',
       reason: 'A project I did during my Software Quality class Junior year.',
       languages: ['C#', 'Monogame'],
-      imgSrc: '../../../assets/KingdomConquest_preview.png',
+      imgSrc: './assets/KingdomConquest_preview.png',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/KingdomConquest',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://levoni.itch.io/kingdom-conquest',
         }
       ],
@@ -170,14 +170,14 @@ export class ProjectsComponent implements OnInit {
       description: 'A multiplayer board game that involves resource management and city expansion.  Based on the game Settlers of Catan.',
       reason: 'A project I did during my Software maintenance class sophomore year.',
       languages: ['C#', 'WinForms'],
-      imgSrc: '../../../assets/natac_splash.PNG',
+      imgSrc: './assets/natac_splash.PNG',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/nataCfosreltteS',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://levoni.itch.io/natac-fo-srelttes',
         }
       ],
@@ -190,14 +190,14 @@ export class ProjectsComponent implements OnInit {
       description: 'Simple tool to track sales and calculate totals.',
       reason: 'A project made so my family could track sales at their garage sales with ease.',
       languages: ['C#', 'WinForms'],
-      imgSrc: '../../../assets/POS_Register.png',
+      imgSrc: './assets/POS_Register.png',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/GarageSalePOS',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://levoni.itch.io/garage-sale-pos',
         }
       ],
@@ -210,14 +210,14 @@ export class ProjectsComponent implements OnInit {
       description: 'Local multiplayer board game based on the popular board game Blokus.',
       reason: 'A project I worked on during my Mobile Apps course senior year.',
       languages: ['Typescript', 'React Native' ],
-      imgSrc: '../../../assets/block-battle-home-crop.png',
+      imgSrc: './assets/block-battle-home-crop.png',
       LinkInfo: [
         {
-          linkImgSrc: '../../../assets/github_logo.png',
+          linkImgSrc: './assets/github_logo.png',
           linkUrl: 'https://github.com/Levoni/BlockBattle',
         },
         {
-          linkImgSrc: '../../../assets/itch-io_logo.png',
+          linkImgSrc: './assets/itch-io_logo.png',
           linkUrl: 'https://levoni.itch.io/block-battle',
         }
       ],

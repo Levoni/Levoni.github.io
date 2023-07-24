@@ -2,9 +2,9 @@
     Projects &nbsp;&nbsp;&nbsp; 
     <select (change)="selectChange()" [(ngModel)]='selectedValue'>
         <option>Year</option>
-        <option>Interseting</option>
+        <option>Interest</option>
         <option>Alphibetical</option>
-        <option>Languages</option>
+        <option>Language</option>
     </select>
 </div>
 <div [ngClass]="{'appear return': divAppear, 'noAppear slide-right': !divAppear}" appAppear [singleAppear]='false' (appear)="appear($event)" class="project-card-section-wrapper">
