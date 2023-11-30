@@ -224,6 +224,26 @@ export class ProjectsComponent implements OnInit {
       year:'2018',
       interestNumber: 5,
       wasGroup: true
+    },
+    {
+      title: 'Domain',
+      description: 'Single player arcade card game.',
+      reason: 'A game I created after being inspired by the game "High Stakes"',
+      languages: ['Typescript', 'React.js' ],
+      imgSrc: './assets/splashscreen.png',
+      LinkInfo: [
+        {
+          linkImgSrc: './assets/github_logo.png',
+          linkUrl: 'https://github.com/Levoni/Domain-game',
+        },
+        {
+          linkImgSrc: './assets/itch-io_logo.png',
+          linkUrl: 'https://levoni.itch.io/domain',
+        }
+      ],
+      year:'2023',
+      interestNumber: 8,
+      wasGroup: false
     }
   ]
   
